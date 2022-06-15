@@ -1,0 +1,91 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="@drawable/badf"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Button"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:src="@drawable/ccvvh"
+			android:scaleType="center" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="ToxicKing_techguru software developer"
+			android:textSize="14sp"
+			android:textColor="#000000" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="App for sale ::Call 0728756236 (Shield Member)"
+				android:textSize="12sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="MENU"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="100dp"
+			android:padding="8dp"
+			android:text="App factions:mainly refer and Earn bonus + Other things"
+			android:textSize="18sp"
+			android:textColor="#000000" />
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="170dp"
+			android:layout_height="70dp"
+			android:layout_marginTop="120dp"
+			android:layout_marginBottom="80dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|bottom"
+			android:text="Start Earning "
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="#FF8F00" />
+	</LinearLayout>
+</LinearLayout>
